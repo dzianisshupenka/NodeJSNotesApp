@@ -3,8 +3,6 @@ const notes = require('./notes.js');
 const yargs = require('yargs');
 const chalk = require('chalk');
 
-// console.log(process.argv);
-
 yargs.version('1.1.0')
 
 yargs.command({
@@ -66,21 +64,3 @@ yargs.command({
     }
 })
 yargs.parse();
-
-// const text = notes.getNotes();
-
-// console.log(text);
-
-// console.log(chalk.yellow.bgRed.bold('Success!'))
-
-// console.log(process.argv[2])
-//console.log(validator.isEmail('kjsdksd@d.comassdvsdvsdv'))
-
-// const fs = require('fs');
-//fs.writeFileSync('notes.txt', 'My Node notes here!')
-// fs.appendFileSync('notes.txt', '\nI made this line by myself')
-// fs.appendFileSync('notes.txt', '\nOne more line')
-// fs.appendFileSync('notes.txt', '\nAgain')
-// fs.appendFileSync('notes.txt', '\nAnd again!!')
-// let gg = require('./untils.js');
-// gg(5,6)
